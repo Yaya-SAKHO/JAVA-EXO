@@ -1,0 +1,14 @@
+CREATE FUNCTION DetailsToutesOffres( IN ninseeDem numeric(13))
+RETURNS SETOF offre 
+AS $$
+
+
+
+
+CREATE FUNCTION EtatOffres()
+RETURNS TABLE(numoff int, etat varchar(100))
+AS $$ DECLARE res RECORD;
+BEGIN
+	FOR res IN
+	
+
